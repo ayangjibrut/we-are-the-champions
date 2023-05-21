@@ -14,6 +14,7 @@ html, body {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
     background-color:#1B1924;
@@ -64,7 +65,7 @@ input {
     font-family: 'Inter', sans-serif;
     font-size: 15px;
     color: #8F8F8F;
-    width: 145px;
+    width: 140px;
     height: 40px;
     border: none;
     border-radius: 8px;
