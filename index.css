@@ -85,6 +85,10 @@ button {
     padding-top: 6px;
 }
 
+button:hover {
+    background-color: palevioletred;
+}
+
 ul {
     color: white;
     text-align: center;
