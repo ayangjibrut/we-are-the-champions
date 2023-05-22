@@ -32,7 +32,7 @@ publishBtn.addEventListener("click", function() {
 
 onValue(endorsementDB, function(snapshot) {
     if (snapshot.exists()) {
-        let entriesArray = Object.entries(snapshot.val())
+        let entriesArray = Object.entries(snapshot.val()).reverse()
     
         clearEndorsementListEl()
         
